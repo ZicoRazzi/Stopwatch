@@ -5,8 +5,8 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  font-family: "Digital-7", sans-serif;
-  background-image: url(/stopwatch/img/walnut-wood-bg.jpg);
+  font-family: 'Digital-7', sans-serif;
+  background-image: url(/img/walnut-wood-bg.jpg);
 }
 
 .stopwatch_container {
@@ -57,7 +57,7 @@
     background-color: transparent;
     cursor: pointer;
     font-size: 60px;
-    font-family: "Digital-7", sans-serif;
+    font-family: 'Digital-7', sans-serif;
   }
 }
 
@@ -85,15 +85,13 @@
   }
 }
 
-@media (min-width: 540px) and (max-width: 768px){
+@media (min-width: 540px) and (max-width: 768px) {
   .stopwatch_container {
-    
     .timer_display {
       font-size: 80px;
     }
   }
   .buttons {
-    
     .start,
     .pause,
     .reset {
